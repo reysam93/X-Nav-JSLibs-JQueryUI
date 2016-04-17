@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ListenYourMusic!</title>
+	<meta charset="utf-8" />
+	<script type="text/javascript" src="jquery-1.12.1.min.js"></script>
+	<script src="jquery-ui.min.js"></script>
+	<script type="text/javascript" src="listen.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="listen.css">
+</head>
+<body>
+	<div id="header">
+		<h1>Listen To Your Music</h1>
+	</div>
+	<div id="subheader">
+		<h4>In this page you can find and listen all music you can think off and edit them in your playlist!</h4>
+	</div>
+
+<div id="dialog" title="Register DIsabled">
+  <p>We are sorry to anounce that the register process is currently not available. We are working to solve this issue.</p>
+  <p>We apologize for any inconvinience this may cause.</p>
+</div>
+<div id="playDialog" title="Play Disabled">
+	<p>Sorry, but this feature is temporaly disabled.</p>
+	<p>We are working on an awsome update!</p> 
+</div>
+	<div id="tabs">
+	  <ul>
+	    <li><a href="#information">General Information</a></li>
+	    <li><a href="#register">Register</a></li>
+	    <li><a href="#example">Demo</a></li>
+	  </ul>
+	  <div id="information">
+	    	<div id="accordion">
+			  <h3>Listen Your Music</h3>
+			  <div>
+			  	<p>Main characteristics about this web site and its features.</p>
+			    <p>
+			    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+			    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+			    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+			    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+			    </p>
+			  </div>
+			  <h3>What type of music do we have?</h3>
+			  <div>
+			  	<p>All type of music!</p>
+			    <p>
+			    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+			    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+			    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+			    suscipit faucibus urna.
+			    </p>
+			  </div>
+			  <h3>Why should I register?</h3>
+			  <div>
+			  	<p>Reasons for register in this site.</p>
+			    <p>
+			    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+			    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+			    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+			    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+			    </p>
+			    <ul>
+			      <li>Reason one</li>
+			      <li>Reason two</li>
+			      <li>Reason three</li>
+			    </ul>
+			  </div>
+			  <h3>FAQ</h3>
+			  <div>
+			  	<h4>Question 1</h4>
+			  	<p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+			    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+			    amet, nunc. Nam a nibh. Donec suscipit eros.</p>
+			    <h4>Question 2</h4>
+			    <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+			    purus.</p>
+			    <h4>Question 3</h4>
+				<p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+				    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+				    ac tellus pellentesque semper. Sed ac felis.
+				</p>
+			  </div>
+			</div>
+	  </div>
+	  <div id="register">
+	    <h3>Create your account here!</h3>
+	    <form id="formRegister">
+	    	<p><label for="username">User:</label> <input type="text" id="username"></p>
+	    	<p><label for="password">Pasword:</label><input type="password" id="password"></p>
+	    	<p><label for="confirm">Confirm Password:</label><input type="password" id="confirm"></p>
+	    	<p><label for="birthdate">Date of birth: </label><input type="text" id="birthdate"></p>
+	    	<input type="submit" id="submitRegister" value="Register">
+	    </form>
+	  </div>
+	  <div id="example">
+	  	<p>Order your play list!</p>
+	    <ul id="musicList">
+		  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>A Litltle Piece of Heaven</li>
+		  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Underline</li>
+		  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Basket Case</li>
+		  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Princesas</li>
+		  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Pienso en Aquella Tarde</li>
+		  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Vuela Corazon</li>
+		  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Thinking Out Loud</li>
+		</ul>
+		<input type="button" id="play" value="play">
+	  </div>
+	</div>
+
+	<div id="footer">
+		Copyright &copy 2016 Samuel Rey
+	</div>
+</body>
+</html>

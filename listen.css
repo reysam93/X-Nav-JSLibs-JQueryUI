@@ -1,0 +1,41 @@
+#header{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+
+#subheader{
+	background-color: grey;
+	color: white;
+	text-align: center;
+	padding: 4px;
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   	padding:5px;	 	 
+}
+
+#musicList {
+   list-style-type: none; 
+   margin: 0; 
+   padding: 0; 
+   width: 60%; 
+}
+
+#musicList li {
+	margin: 0 3px 3px 3px; 
+	padding: 0.4em; 
+	padding-left: 1.5em; 
+	font-size: 1.4em; 
+	height: 18px; 
+}
+
+#musicList li span { 
+	position: absolute; 
+	margin-left: -1.3em;
+}
